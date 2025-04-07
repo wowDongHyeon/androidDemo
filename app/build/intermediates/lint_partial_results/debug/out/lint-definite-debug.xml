@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.2" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.15.0">
+        <fix-replace
+            description="Change to 1.15.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.15.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="36"
+            column="20"
+            startOffset="783"
+            endLine="36"
+            endColumn="51"
+            endOffset="814"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="37"
+            column="20"
+            startOffset="834"
+            endLine="37"
+            endColumn="56"
+            endOffset="870"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="38"
+            column="20"
+            startOffset="890"
+            endLine="38"
+            endColumn="65"
+            endOffset="935"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="39"
+            column="20"
+            startOffset="955"
+            endLine="39"
+            endColumn="70"
+            endOffset="1005"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.webkit:webkit than 1.7.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.7.0"
+            replacement="1.13.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="1025"
+            endLine="40"
+            endColumn="50"
+            endOffset="1055"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib than 1.8.22 is available: 1.9.0">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="41"
+            column="20"
+            startOffset="1075"
+            endLine="41"
+            endColumn="72"
+            endOffset="1127"/>
+    </incident>
+
+</incidents>

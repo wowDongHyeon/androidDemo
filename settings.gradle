@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == "kotlin-android") {
+                useVersion("1.8.20")
+            }
+        }
+    }
+}
+
+rootProject.name = "KotlinWebViewApp"
+include ':app'
+
