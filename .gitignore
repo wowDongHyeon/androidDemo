@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ/VS Code
+.idea/
+*.iml
+.vscode/
+
+# Local config
+local.properties
+
+# Mac/Linux system files
+.DS_Store
+
+# Android Studio generated
+captures/
+output.json
+*.apk
+*.ap_
+
+# Logs
+*.log
